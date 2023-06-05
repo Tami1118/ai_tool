@@ -2,8 +2,8 @@
   box-sizing: border-box;
 }
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: black;
+  font: 14px Helvetica, Arial, sans-serif;
+  background: #4298b4 url(https://www.16personalities.com/static/images/homepage/header-mountains-desktop.svg) no-repeat bottom;
   color: white;
   display: flex;
   justify-content: center;
@@ -17,30 +17,33 @@ body {
 }
 
 .card {
-  border: 1px solid #1b1b1b;
+  border: 1px solid #ffffff;
   border-radius: 16px;
-  background-color: #222222;
+  background-color: #ffffff;
   padding: 32px 24px; 
 }
 .card-img {
   width: 150px;
 }
 .card-title {
+  color: #3f3f3f;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 700;
   margin-bottom: 24px;
 }
 .card-text {
   font-size: 40px;
+  color: #4298b4;
 }
 .card-input {
   padding: 10px 20px;
   border-radius: 8px;
   margin-right: 8px;
   border: none;
+  background-color: #efefef;
 }
 .card-btn {
-  background-color: #ffce45;
+  background-color: #4298b4;
   color: white;
   padding: 8px 16px;
   border-radius: 8px;
