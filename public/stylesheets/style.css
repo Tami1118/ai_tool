@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height:100vh;
+}
+
+::placeholder {
+  font-size: 12px;
+}
+
+.card {
+  border: 1px solid #1b1b1b;
+  border-radius: 16px;
+  background-color: #222222;
+  padding: 32px 24px; 
+}
+.card-img {
+  width: 150px;
+}
+.card-title {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+.card-text {
+  font-size: 40px;
+}
+.card-input {
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-right: 8px;
+  border: none;
+}
+.card-btn {
+  background-color: #ffce45;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.card-btn:hover {
+  opacity: .8;
+}
